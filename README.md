@@ -5,6 +5,7 @@ JITSI is an open source meeting sowftware solution. It can run easily on Docker 
 ## How to use it
 
 You can run the applied `start-stack.sh` with the extras `start/stop/restart`. Make sure you edit the nexessary fields within the bash-script before you use the deployment:
+
 ```
 #!/bin/sh
 export STACK="JITSI"
@@ -74,6 +75,7 @@ export JIBRI_STRIP_DOMAIN_JID=muc
 export JIBRI_LOGS_DIR=/config/logs
 
 ```
+
 You can find all vars on [JITSI Handbook on Docker Sel-fHosting](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-docker)
 
 ```bash
@@ -81,8 +83,6 @@ You can find all vars on [JITSI Handbook on Docker Sel-fHosting](https://jitsi.g
 ```
 
 After the roll out you can access JITSI via the PUBLIC DOMAIN entry you provided.
-
-```bash
 
 
 ### Special Notes
