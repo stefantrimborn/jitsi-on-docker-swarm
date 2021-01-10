@@ -86,6 +86,7 @@ After the roll out you can access JITSI via the PUBLIC DOMAIN entry you provided
 
 
 ### Special Notes
+
 - This deployment does not use any authentication. That means anyone can join and create sessions.
 - Make sure you set the `PORTS` for the `jvb` container as HOST ports. Otherwise the JVB container will not be able to connect more than one session properly. 
 - Make sure you configure the `DOCKER_HOST_ADDRESS`. This will guarantee your JVB node can be NATed properly and you can provide a session.
